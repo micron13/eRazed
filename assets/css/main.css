@@ -1575,6 +1575,22 @@ Erazed Clan Switzerland by Oliver Sahli Terrabyte
 				width: 100%;
 			}
 
+			#main .thumb .external {
+				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				border: 0;
+				height: 100%;
+				left: 0;
+				position: relative;
+				top: 0;
+				width: 100%;
+				-moz-pointer-events: auto;
+				-webkit-pointer-events: auto;
+				-ms-pointer-events: auto;
+			}
+
 			#main .thumb > h2 {
 				-moz-pointer-events: none;
 				-webkit-pointer-events: none;
