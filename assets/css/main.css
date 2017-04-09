@@ -1581,11 +1581,15 @@ Erazed Clan Switzerland by Oliver Sahli Terrabyte
 				background-repeat: no-repeat;
 				background-size: cover;
 				border: 0;
-				height: 100%;
-				left: 0;
-				position: relative;
-				top: 0;
+				min-height: 100%;
 				width: 100%;
+				min-width: 100%;
+				object-fit: fill;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: auto;
+				
 				-moz-pointer-events: auto;
 				-webkit-pointer-events: auto;
 				-ms-pointer-events: auto;
